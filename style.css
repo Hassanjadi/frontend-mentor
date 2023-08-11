@@ -9,32 +9,38 @@ body {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  margin: 50% auto;
-  width: 415px;
+  margin: 100px auto;
+  width: 300px;
   height: fit-content;
   border-radius: 16px;
-  padding-bottom: 24px;
+  padding-bottom: 32px;
 }
 
-.card img {
-  padding: 24px 24px 0 24px;
-  width: 360px;
-  border-img: 16px;
+.card-heading {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
 }
 
-.text {
-  margin: 24px;
+.card-heading img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
-.text h2 {
+.card-body {
+  margin: 0 32px 0 32px;
+}
+
+.card-body h4 {
   display: flex;
   justify-content: center;
   text-align: center;
   color: hsl(218, 44%, 22%);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
-.text p {
+.card-body p {
   font-size: 15px;
   display: flex;
   justify-content: center;
