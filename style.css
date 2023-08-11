@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  margin: 50% auto;
+  width: 415px;
+  height: fit-content;
+  border-radius: 16px;
+  padding-bottom: 24px;
+}
+
+.card img {
+  padding: 24px 24px 0 24px;
+  width: 360px;
+  border-img: 16px;
+}
+
+.text {
+  margin: 24px;
+}
+
+.text h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 24px;
+}
+
+.text p {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
